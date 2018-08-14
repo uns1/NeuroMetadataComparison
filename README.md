@@ -19,8 +19,7 @@ This will write a new sheet to the original excel file with the comparisons in a
 ### Data Format Considerations
 *In the attached images, the highlited rows and/or columns are the ones the I'm talking about*
 
-- In the first column (A), the feature rows should have integer labels next to them.
-
+- In the first column (A), the feature rows that need to be compared should have integers next to them.
 ![alt text](https://github.com/uns1/NeuroMetadataComparison/blob/master/readme_images/ColInt.PNG)
 
 - In the first row (1), the group numbers should be integers with no strings or other text i.e. should just be numbers from 1 to n.
@@ -28,7 +27,3 @@ This will write a new sheet to the original excel file with the comparisons in a
 
 - After the last row of feature data, there should be no data in the sheet. This is vital for Pandas to correctly read the data in the excel file.
 ![alt text](https://github.com/uns1/NeuroMetadataComparison/blob/master/readme_images/NoDat.PNG)
-
-
-
-
