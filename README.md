@@ -17,7 +17,6 @@ Compares metadata from Neuromorpho DB. This was created for a very specialized f
 This will write a new sheet to the original excel file with the comparisons in a matrix format.
 
 ### Data Format Considerations
-*In the attached images, the highlited rows and/or columns are the ones the I'm talking about*
 
 - In the first column (A), the feature rows that need to be compared should have integers next to them.
 ![alt text](https://github.com/uns1/NeuroMetadataComparison/blob/master/readme_images/ColInt.PNG)
@@ -27,3 +26,5 @@ This will write a new sheet to the original excel file with the comparisons in a
 
 - After the last row of feature data, there should be no data in the sheet. This is vital for Pandas to correctly read the data in the excel file.
 ![alt text](https://github.com/uns1/NeuroMetadataComparison/blob/master/readme_images/NoDat.PNG)
+
+*In the attached images, the highlited rows and/or columns are the ones the I'm talking about*
