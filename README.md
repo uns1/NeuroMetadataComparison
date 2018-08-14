@@ -1,10 +1,15 @@
 # NeuroMetadataComparison
-Compares metadata from Neuromorpho DB. This was created for a very specialized format of the metadata.
+#### A python script for comparing metadata from the Neuromorpho DB. 
+***
+Created By: Usama Nasir Saifi.
+
+For questions/comments you can reach me at u.saifi@rutgers.edu
+***
 
 ### Instructions for Windows:
 
 1. Install Python 3.5.2 from https://www.python.org/ftp/python/3.5.2/python-3.5.2-amd64.exe
-2. Once Python 3 has been installed, you need to install NumPy and Pandas. This can be done from the command prompt :
+2. Once Python 3 has been installed, you need to install NumPy and Pandas. This can be done from the command prompt by using the following commands:
     - Open the command prompt and write : **pip install numpy**
     - Open the command prompt and write : **pip install pandas**
 
