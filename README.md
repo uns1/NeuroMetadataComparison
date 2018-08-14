@@ -4,10 +4,9 @@ Compares metadata from Neuromorpho DB. This was created for a very specialized f
 ### Instructions for Windows:
 
 1. Install Python 3.5.2 from https://www.python.org/ftp/python/3.5.2/python-3.5.2-amd64.exe
-2. Once Python 3 has been installed, you need to install NumPy and Pandas.
-  - This can be done from the command prompt:
-  - Open the command prompt and write : **pip install numpy**
-  - Open the command prompt and write : **pip install pandas**
+2. Once Python 3 has been installed, you need to install NumPy and Pandas. This can be done from the command prompt :
+    - Open the command prompt and write : **pip install numpy**
+    - Open the command prompt and write : **pip install pandas**
 
 ### Usage
 1. Place the excel metadata file and metacompare.py in the same directory.
