@@ -15,7 +15,7 @@ For questions/comments you can reach me at u.saifi@rutgers.edu
 
 ### Usage
 1. Place the excel metadata file and metacompare.py in the same directory.
-2. Open command prompt and write **py metacompare.py path_to_excel_file sheetname with metadata**
+2. Open command prompt and navigate to the directory. Then write **py metacompare.py path_to_excel_file sheetname with metadata**
 *For the example in this repo, this would be: py metacompare.py glia.xlsx Metadata*
 
 This will write a new sheet to the original excel file with the comparisons in a matrix format.
